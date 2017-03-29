@@ -1,0 +1,232 @@
+/**
+ * Background Color: #FCFCFC
+ * Primary Color: #2D3947
+ * 
+ */
+
+body {
+	color: #2D3947;
+}
+
+.navbar-custom {
+	background-color: #2d3947;
+	border: none;
+	margin-bottom: -74px;
+	padding-top: 12px;
+	padding-bottom: 12px;
+	z-index: 1;
+}
+.navbar-custom .navbar-nav > li > a {
+	color: #FCFCFC;
+}
+.navbar-custom .navbar-nav > li > a:hover,.navbar-custom .navbar-nav > li > a:focus {
+	color: #FCFCFC;
+}
+.navbar-custom .navbar-header .navbar-brand {
+	padding: 5px 16px;
+}
+.navbar-custom .navbar-header .navbar-brand .navbar-image {
+	height: 40px;
+}
+.navbar-custom .navbar-toggle {
+	border: none;
+	background-color: none;
+}
+.navbar-custom .navbar-toggle:active,.navbar-custom .navbar-toggle:hover {
+	border: none;
+	background-color: transparent;
+}
+.navbar-custom .navbar-toggle .icon-bar {
+	background-color: #FCFCFC;
+}
+
+.jumbotron{
+	min-height: 600px;
+	height: 100%;
+	height: 95vh;
+	background-image: url('../img/slider_image_1366x768.jpg');
+  	background-size: cover;
+  	background-position: center;
+  	position: relative;
+  	margin: 0;
+}
+.jumbotron .jumbotron-btn{
+	position: absolute;
+	font-size: 18px;
+	padding: 20px 40px;
+	border-radius: 4px;
+	background-color: #FCFCFC;
+	border: none;
+	color: #2D3947;
+	bottom: 50px;
+	left: 50%;
+	transform: translateX(-50%);
+}
+
+.btn-default {
+	background-color: transparent;
+	box-shadow: 0 0 0 2px #2D3947;
+	color: #2D3947;
+	border: none;
+	transition: all 0.18s ease;
+}
+.btn-default:hover, .btn-default:active {
+	background-color: #2D3947;
+	color: #FCFCFC;
+	border: none;
+}
+
+.btn-inverted {
+	color: #FCFCFC;
+	box-shadow: none;
+	transition: all 0.18s ease;
+}
+.btn-inverted:hover,.btn-inverted:focus{
+	text-decoration: none;
+	color: #FCFCFC;
+	box-shadow: 0 0 0 2px #FCFCFC;
+}
+
+.btn-default.btn-inverted {
+	box-shadow: 0 0 0 2px #FCFCFC;
+	color: #FCFCFC;
+	transition: all 0.18s ease;
+}
+
+.btn-default.btn-inverted:hover {
+	color: #2D3947;
+	background-color: #FCFCFC;
+}
+
+.store-button {
+	display: block;
+	float: left;
+	margin: 0 16px;
+	height: 60px;
+	background-size: cover;
+	background-position: center;
+}
+.store-button.android{
+	width: 178.217px;
+	background-image: url('../img/google-play-button.png');
+}
+.store-button.ios{
+	width: 163.460px;
+	background-image: url('../img/available-on-the-app-store.png');
+}
+.store-button.windows{
+	width: 166.154px;
+	background-image: url('../img/English_Get_it_Win_10_864X312.png');
+}
+
+.margin-top {
+	margin-top: 16px;
+}
+.margin-right--half {
+	margin-right: 8px;
+}
+
+section {
+	padding: 60px 0;
+}
+section .section-description {
+	margin-top: 25px;
+}
+section h2.section-heading {
+	font-size: 41.886784px;
+	line-height: 1.3;
+	font-weight: 700;
+}
+section h3.section-heading {
+	font-size: 25.888px;
+	line-height: 1.33;
+	font-weight: 400;
+	margin-top: 0;
+	margin-bottom: 0;
+}
+section h3.section-subheading, section h4.section-heading {
+	font-size: 16px;
+	line-height: 1.618;
+	font-weight: 400;
+	margin: 0;
+}
+section .text-muted {
+	color: #5E5E5E;
+}
+
+#services {
+	background-color: #FCFCFC;
+}
+
+#products {
+	background-color: #E7E7E7;
+}
+
+#services h4.service-heading {
+	font-weight: 400;
+	font-size: 22px;
+	padding: 0 12px;
+}
+#services img{
+	width: 150px;
+}
+
+#contact {
+	background-color: #505050;
+	color: #FCFCFC;
+}
+
+#contact .form-control {
+	background-color: transparent;
+	color: #FCFCFC;
+    border: none;
+    box-shadow: none;
+    border-bottom: 1px solid #FCFCFC;
+    border-radius: 0;
+    resize: none;
+}
+#contact textarea.form-control{
+	height: 120px;
+}
+#contact .form-control:focus{
+	border-bottom-width: 2px;
+}
+
+
+@media (max-width: 599px) {
+	.navbar-custom {
+		background-color: #212121;
+	}
+	.navbar-custom .navbar-collapse {
+		position: fixed;
+		width: 100%;
+		background-color: #212121;
+		top: 74px;
+		border: none;
+	}
+	.jumbotron {
+		min-height: 500px;
+	}
+	.jumbotron .jumbotron-btn{
+		font-size: 15px;
+		padding: 12px 24px;
+	}
+	.store-button {
+		margin: 4px 0;
+		height: 50px;
+		max-width: 100%;
+	}
+	.store-button.android{
+		width: 148.514px;
+	}
+	.store-button.ios{
+		width: 136.217px;
+	}
+	#services h4.service-heading {
+		font-size: 18px;
+		padding: 0px;
+	}
+	#services img{
+		width: 100px;
+	}
+}
